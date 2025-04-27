@@ -1,0 +1,35 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #f5f5f5;
+  text-align: right; /* Align the navbar items to the right */
+  direction: rtl; /* Set the direction to RTL */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 10px; /* Add some spacing between the navbar items */
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+body {
+  height: 250vh;
+  background-image: linear-gradient(to right, #ffcfff, #ffe4fe, #ffffff);
+}
